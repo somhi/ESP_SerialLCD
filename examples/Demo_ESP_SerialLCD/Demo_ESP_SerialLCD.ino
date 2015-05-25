@@ -18,10 +18,10 @@
 // Default values
 int DELAY = 10000;        // check BTC price each x seconds (1000 = 1 s)
 
-#define SERIAL_LIB slcd     // slcd - uses the ESPSerialLCD library
+#define SERIAL_LIB slcd     // slcd - uses the ESP_SerialLCD library
 //#define SERIAL_LIB Serial   // Serial - uses standard arduino Serial library
 // To test output to serial interface, just comment all the lines with "slcd" 
-// Also comment the #include <ESPSerialLCD.h>  so don't need for this library to test serial output
+// Also comment the #include <ESP_SerialLCD.h>  so don't need for this library to test serial output
 // and uncomment #define SERIAL_LIB Serial    and   Serial.begin(9600);
 
 
